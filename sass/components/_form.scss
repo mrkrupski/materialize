@@ -47,7 +47,7 @@ input[type=search],
 textarea.materialize-textarea {
 
   // General Styles
-  background-color: transparent;
+  background-color: $input-bg-color;
   border: none;
   border-bottom: 1px solid $input-border-color;
   border-radius: 0;
@@ -181,7 +181,7 @@ textarea.materialize-textarea {
   width: calc(100% - 4rem);
 
   &:focus {
-    background-color: $input-bg-color;
+    background-color: #fff;
     border: 0;
     box-shadow: none;
     color: #444;
